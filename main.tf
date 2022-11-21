@@ -53,7 +53,7 @@ resource "aws_instance" "web" {
   metadata_options {
        http_tokens = "required"
      }  
- }
+ 
 
   user_data = <<-EOF
               #!/bin/bash
